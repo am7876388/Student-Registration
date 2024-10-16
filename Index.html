@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="Script.js"></script>
+</head>
+<body>
+    <header>Student Registration System</header>
+    <section id="Registration">
+        <form id="Student-Form" onsubmit="return false">
+            <h1>Registration Form</h1>
+            <div id = "Name">Student Name</div>
+            <input type="text" placeholder="Enter Full Name" class="FormInputs" id="NameInput" required>
+            <div id = "Name">Student ID</div>
+            <input type="text" placeholder="Enter Student ID" class="FormInputs" id="IDinput" required>
+            <div id = "Name">Email ID</div>
+            <input type="email" placeholder="Enter Email ID" class="FormInputs" id="EmailInput" required>
+            <div id = "Name">Contact no</div>
+            <input type="tel" placeholder="Enter Contact number" class="FormInputs" id="ContactInput" required>
+            <button id="Submit">Submit</button>
+        </form>
+    </section>
+    <section id="Display"><div id="Display-container"> <ul id="Navigation">
+    <li>Name</li>
+    <li>ID</li>
+    <li>Email</li>
+    <li>Contact</li>
+    <li>Functions</li></ul></div>
+</section>
+</body>
+</html>
