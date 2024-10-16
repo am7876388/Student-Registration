@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded",() =>{
                 const ID = document.getElementById("IDinput").value;
                 const Email = document.getElementById("EmailInput").value;
                 const Contact = document.getElementById("ContactInput").value;
-        if(Name && ID && Email && Contact && typeof(Number(Contact)) === "number" && !isNaN(Contact) && Contact.length === 10 && typeof(Number(ID)) === "number" && !isNaN(ID)){
+        if(Name && ID && Email && Contact && typeof(Number(Contact)) === "number" && !isNaN(Contact) && Contact.length === 10 && typeof(Number(ID)) === "number" && !isNaN(ID) && !Notemail(Email)){
             Displaying(Name,ID,Email,Contact); //After Data is checked in the above line the Data is passed in the Displaying function
             const StoreData = {
                 NAME:Name,
