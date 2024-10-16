@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded",() =>{
             localStorage.setItem("FORMDATA",JSON.stringify(existing));
         }
         else{
-            alert("Enter all the Fields Correctly");
+            alert("Enter all the Fields Correctly and check that none of it should be empty");
         }
     })
     const NotNumber = (num4) =>{
