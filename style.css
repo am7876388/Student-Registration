@@ -14,10 +14,18 @@ body{
 header{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
     color: #FFFF;
+}
+header h1{
+    font-size: 2rem;
+}
+header p{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 #Registration{
     width: 100%;
@@ -139,6 +147,7 @@ ul li,.Datas{
     height: 1.2rem;
     width: 1.2rem;
 }
+/* Media Queries for responsive behaviour */
 @media only screen and (max-width:480px){
     html{
         font-size: 2.1vw;
